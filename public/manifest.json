@@ -1,35 +1,35 @@
 {
-  "id": "/",
+  "id": "/bari-racing-aio/",
   "name": "Bari Racing AIO - Motorcycle Calculator",
   "short_name": "BariRacing",
   "description": "Bari Racing AIO (Bari RACING All-in-One) - ứng dụng Web-app PWA đa chức năng chuyên sâu về xe máy, tính toán cơ khí động cơ, chẩn đoán bắt bệnh âm thanh, mô phỏng Virtual Dyno và GPS Road Test.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/bari-racing-aio/",
+  "scope": "/bari-racing-aio/",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#000000",
   "background_color": "#000000",
   "icons": [
     {
-      "src": "/bari_racing_1x1.png",
+      "src": "bari_racing_1x1.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/pwa-192x192.png",
+      "src": "pwa-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/pwa-512x512.png",
+      "src": "pwa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/bari_racing_1x1.png",
+      "src": "bari_racing_1x1.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
