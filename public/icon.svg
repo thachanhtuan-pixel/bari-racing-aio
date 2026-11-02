@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="neonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="50%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="neonBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2bd10d"/>
+      <stop offset="50%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#60ff42"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#080808"/>
+  <rect width="504" height="504" x="4" y="4" rx="96" fill="url(#metalGrad)" stroke="#39FF14" stroke-width="4" stroke-dasharray="24 12"/>
+  <circle cx="256" cy="256" r="210" fill="url(#neonGlow)"/>
+
+  <!-- Industrial Bolt Corners -->
+  <circle cx="48" cy="48" r="8" fill="#333" stroke="#39FF14" stroke-width="2"/>
+  <circle cx="464" cy="48" r="8" fill="#333" stroke="#39FF14" stroke-width="2"/>
+  <circle cx="48" cy="464" r="8" fill="#333" stroke="#39FF14" stroke-width="2"/>
+  <circle cx="464" cy="464" r="8" fill="#333" stroke="#39FF14" stroke-width="2"/>
+
+  <!-- Piston Graphic -->
+  <g transform="translate(256, 230)">
+    <!-- Piston Head -->
+    <rect x="-85" y="-120" width="170" height="130" rx="12" fill="#181818" stroke="#39FF14" stroke-width="6"/>
+    <!-- Piston Ring Grooves -->
+    <line x1="-80" y1="-95" x2="80" y2="-95" stroke="#39FF14" stroke-width="4"/>
+    <line x1="-80" y1="-75" x2="80" y2="-75" stroke="#39FF14" stroke-width="4"/>
+    <line x1="-80" y1="-55" x2="80" y2="-55" stroke="#39FF14" stroke-width="3" stroke-dasharray="6 4"/>
+    
+    <!-- Piston Pin Hole -->
+    <circle cx="0" cy="-25" r="24" fill="#080808" stroke="#39FF14" stroke-width="5"/>
+    <circle cx="0" cy="-25" r="12" fill="#39FF14"/>
+
+    <!-- Connecting Rod -->
+    <path d="M-22,10 L-14,130 L-26,140 C-36,155 -36,180 -18,196 C0,210 36,210 54,196 C72,180 72,155 62,140 L50,130 L42,10 Z" fill="#141414" stroke="#39FF14" stroke-width="5"/>
+    <!-- Crank Journal Hole -->
+    <circle cx="18" cy="172" r="22" fill="#080808" stroke="#39FF14" stroke-width="5"/>
+
+    <!-- Speed Streaks / Spark / Flame -->
+    <path d="M-120,-70 L-95,-70" stroke="#FF3344" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-135,-45 L-95,-45" stroke="#FF3344" stroke-width="5" stroke-linecap="round"/>
+    <path d="M95,-70 L120,-70" stroke="#39FF14" stroke-width="5" stroke-linecap="round"/>
+    <path d="M95,-45 L135,-45" stroke="#39FF14" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="256" y="455" font-family="'Courier New', monospace" font-size="34" font-weight="900" fill="#39FF14" text-anchor="middle" letter-spacing="6">BARI RACING</text>
+  <text x="256" y="485" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#AAAAAA" text-anchor="middle" letter-spacing="4">ALL-IN-ONE (AIO)</text>
+</svg>

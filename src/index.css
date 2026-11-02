@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --carbon-dark: #000000;
+    --carbon-panel: #0d0d0d;
+    --carbon-border: #262626;
+    --white-glow: #ffffff;
+  }
+
+  body {
+    font-family: 'Chakra Petch', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    touch-action: manipulation;
+  }
+}
+
+.font-tech {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.font-display {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Gritty Garage Grid Overlay - Pure Black & White */
+.workshop-grid {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.metal-panel {
+  background: linear-gradient(135deg, #141414 0%, #0a0a0a 60%, #040404 100%);
+  border: 1px solid #282828;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.metal-panel-active {
+  background: linear-gradient(135deg, #1c1c1c 0%, #121212 60%, #080808 100%);
+  border: 1px solid #ffffff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 18px rgba(255, 255, 255, 0.25);
+}
+
+.white-glow-border {
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.35);
+}
+
+.white-glow-text {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.4);
+}
+
+.glowing-star {
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+}
+
+/* Digital LCD Segment Display - Pure Monochrome High-Contrast Black & White */
+.lcd-display {
+  background: #000000;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Share Tech Mono', monospace;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.05em;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05), 0 0 15px rgba(255, 255, 255, 0.15);
+}
+
+/* Custom scrollbar for mechanical panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}

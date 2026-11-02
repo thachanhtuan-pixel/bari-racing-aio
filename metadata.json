@@ -1,0 +1,6 @@
+{
+  "name": "Bari Racing AIO",
+  "description": "Bari Racing AIO (Bari RACING All-in-One) - ứng dụng Web-app PWA đa chức năng chuyên sâu về xe máy, tính toán cơ khí động cơ, chẩn đoán bắt bệnh âm thanh, mô phỏng Virtual Dyno và GPS Road Test.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
